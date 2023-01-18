@@ -1,0 +1,28 @@
+{
+  "name": "web-streams",
+  "version": "1.0.0",
+  "description": "Playing with web-streams",
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "streams",
+    "web-streams",
+    "tailwindcss"
+  ],
+  "engines": {
+    "node": ">=18.x"
+  },
+  "author": "Tiago Guatierri <tiagovit@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "server": "node --watch server/index.js",
+    "web": "http-server web"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
